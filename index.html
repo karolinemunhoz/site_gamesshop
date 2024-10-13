@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Shop - A sua loja de games</title>
+    <title>Undertale</title>
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/PixelOperator-Bold.ttf">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Games Shop</h1>
+            <h1>UNDERTALE</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#about">Sobre a loja</a>
+                        <a href="#about">Sobre o jogo</a>
                     </li>
                     <li>
-                        <a href="#contact">Contato</a>
+                        <a href="#contact">Pré-registro</a>
                     </li>
                 </ul>
             </nav>
@@ -27,34 +28,64 @@
     </header>
     <section id="about">
         <div class="container">
-            <img class="store-front" src="./images/loja.jpg" alt="Fachada da loja Games Shop">
+            <img class="store-front" src="./images/Capa.jpg" alt="Capa do jogo">
             <div>
-                <h2>Sobre a loja</h2>
+                <h2>Sobre o jogo</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cum sed non aperiam iure esse dolorem doloremque aliquid reprehenderit expedita quaerat nostrum, molestias consequuntur velit consequatur, voluptates assumenda natus labore.
+                    Muito tempo atrás, duas raças dominavam a Terra: Humanos e Monstros. Um dia, a Guerra começou entre as duas raças. Após uma longa série de batalhas, os Humanos saíram vitoriosos. O maior de seus Magos prendeu os monstros no Subterrâneo, com uma Barreira mágica. Entretanto, essa barreira não era perfeita.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cum sed non aperiam iure esse dolorem doloremque aliquid reprehenderit expedita quaerat nostrum, molestias consequuntur velit consequatur, voluptates assumenda natus labore.
+                    Muitos anos após a guerra, em 201X, a Criança Humana escala a Montanha Ebott por um motivo desconhecido. Dizem que aqueles que sobem a montanha nunca retornam. Lá, a criança encontra um enorme buraco e nele cai enquanto tentava ver mais de perto.
+                </p>
+                <p>
+                    O Protagonista, que deve ser nomeado pelo jogador, começa sua aventura nas Ruínas. Rapidamente, encontra Flowey, a flor animada que tenta matar o protagonista por diversão. Também encontra Toriel, um monstro materno, que o salva e o ensina a resolver quebra-cabeças e conflitos no Subterrâneo. Após enfrentá-la, ela permite que a Criança saia das Ruínas.
+
                 </p>
                 <ul class="brands-list">
-                    <li><img src="./images/nintendo.png" alt="Nintendo"></li>
-                    <li><img src="./images/xbox.png" alt="Xbox"></li>
-                    <li><img src="./images/playstation.png" alt="Playstation"></li>
+                    <li>
+                        <img src="./images/nintendo.png" alt="Nintendo"></li>
+                    <li>
+                        <img src="./images/xbox.png" alt="Xbox"></li>
+                    <li>
+                        <img src="./images/playstation.png" alt="Playstation"></li>
                 </ul>
             </div>
         </div>
     </section>
+    <section class="personagens">
+        <div class="frisk">
+            <img src="./images/Frisk.png" alt="Frisk">
+            <h2>Frisk</h2>
+            <p>Frisk é o personagem jogável, protagonista e oitavo humano de Undertale. Depois de cair no Subsolo, ele(a) se aventura para retornar à superfície, seja de modo neutro, pacificamente ou de modo genocida.
+            </p>
+        </div>
+        <div class="toriel">
+            <img src="./images/Toriel.png" alt="Toriel">
+            <h2>Toriel</h2>
+            <p>Toriel é a segunda personagem encontrada em Undertale. Ela salva o protagonista de Flowey lançando uma magia de bola de fogo nele. Toriel faz o tutorial das Ruínas, guiando o jogador até sua nova casa.</p>
+        </div>
+        <div class="sans">
+            <img src="./images/Sans.png" alt="Sans">
+            <h2>Sans</h2>
+            <p>Sans é o irmão mais velho de Papyrus e um personagem principal em Undertale. Ele aparece na Floresta de Nevada depois do protagonista sair das Ruínas.
+            </p>
+        </div>
+        <div class="papyrus">
+            <img src="./images/Papyrus.png" alt="Papyrus">
+            <h2>Papyrus</h2>
+            <p>Papyrus é o irmão de Sans, um personagem principal e o segundo boss em Undertale. Ele quer se tornar um membro da Guarda Real e finalmente ganhar fama e amigos.</p>
+        </div>
+    </section>
     <section id="contact">
         <div class="container">
-            <h2>Contato</h2>
+            <h2>Jogue Conosco</h2>
             <div class="contact-methods">
                 <div>
-                    <h3>Fale conosco</h3>
+                    <h3>Pré-registro</h3>
                     <form>
                         <input type="text" placeholder="Seu nome" required />
                         <input type="email" placeholder="Seu e-mail" required />
-                        <input type="tel" placeholder="Seu telefone (opcional)" />
-                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <input type="password" placeholder="Sua senha" required />
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
@@ -62,17 +93,17 @@
                     <h3>Nos acompanhe</h3>
                     <ul class="social-links">
                         <li>
-                            <a href="#" title="Siga-nos no Instagram">
+                            <a href="https://www.instagram.com/undertale_offical/" target="_blank" title="Siga-nos no Instagram">
                                 <img src="./images/instagram.png" alt="Logo do Instagram" />
                             </a>
                         </li>
                         <li>
-                            <a href="#" title="Siga-nos no Facebook">
+                            <a href="https://www.facebook.com/groups/227283111675653/" target="_blank" title="Siga-nos no Facebook">
                                 <img src="./images/facebook.png" alt="Logo do Facebook" />
                             </a>
                         </li>
                         <li>
-                            <a href="#" title="Visite nosso canal no Youtube">
+                            <a href="https://www.youtube.com/@UNDERTALEOfficial" target="_blank" title="Visite nosso canal no Youtube">
                                 <img src="./images/youtube.png" alt="Logo do Youtube" />
                             </a>
                         </li>                                                
@@ -81,7 +112,7 @@
                 <div>
                     <h3>Venha até nós</h3>
                     <p>
-                        Rua JavaScript n° 124, Vila HTML - São Paulo - SP
+                        Monte Ebott - Subsolo n° 11
                     </p>
                 </div>
             </div>
@@ -90,7 +121,7 @@
     <footer>
         <div class="container">
             <p>
-                &copy; Games Shop - Todos os direitos reservados - 2024
+                &copy; Undertale - Todos os direitos reservados - 2024
             </p>
         </div>
     </footer>
